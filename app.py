@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-st.beta_set_page_config(page_title='Laptop Price Predictor')
+
 #import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
 laptop_data = pickle.load(open('laptop_data.pkl','rb'))
