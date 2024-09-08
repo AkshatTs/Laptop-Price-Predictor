@@ -29,7 +29,7 @@ ips = st.selectbox('IPS',['No','Yes'])
 
 #screen size
 #screen_size = st.number_input('Screen Size')
-screen_size = st.number_input("Enter screen size (in inches)", min_value=0.1, value=0.0)
+screen_size = st.number_input("Enter screen size (in inches)", min_value=0.1, value=0.1)
 
 
 #Resolution
